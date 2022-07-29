@@ -11,6 +11,7 @@
     padding: 5px;;
     margin: 0px;
 
+
 }
 
 .menu {
@@ -44,6 +45,25 @@
 }
 
 .middle {
-     padding: 70px;
+    position: relative;
+     padding: 0px;
      margin: 70px;
 }
+
+
+  .overlay {
+    position: absolute;
+    TOP: 0;
+    background: rgba(20, 20, 20, 0.2);
+    width: 87%;
+    opacity:0;
+    transition: .9s ease;
+    font-size: 35px;
+    color:red;
+    padding: 50px;
+
+  }
+
+  .middle:hover .overlay {
+    opacity: 1.5;
+  }

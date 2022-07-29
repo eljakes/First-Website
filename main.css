@@ -6,6 +6,7 @@
     background-color: black;
     display: flex;
     justify-content: space-around;
+
 }
 
 
@@ -51,8 +52,13 @@
 .main {
     background-color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
 }
+
+
+
+
 
 
 .foot {
