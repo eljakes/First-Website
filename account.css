@@ -41,8 +41,8 @@
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-
-
+    display:inline-block;
+    text-align: center;
+    margin: 60px;
+    padding: 60px;
 }

@@ -1,8 +1,15 @@
+.container {
+    background-color: pink;
+}
+
 .nav_menu {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color:whitesmoke;
+    padding: 5px;;
+    margin: 0px;
 
 }
 
@@ -30,4 +37,13 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 3px;
+}
+
+.text {
+    text-align: center;
+}
+
+.middle {
+     padding: 70px;
+     margin: 70px;
 }

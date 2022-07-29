@@ -1,8 +1,15 @@
+.container {
+    background-color: pink;
+}
+
 .nav_menu {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color:whitesmoke;
+    padding: 5px;;
+    margin: 0px;
 
 }
 
@@ -29,5 +36,18 @@
     padding: 0.2em;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 3px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li a:link,
+.list li a:visited {
+    display: block;
+    text-decoration:none;
+    font-weight:bolder;
+    padding: 0.2em;
     border-radius: 3px;
 }
