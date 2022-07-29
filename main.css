@@ -79,7 +79,7 @@
 
 
 
-.foot {
+.low {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -88,4 +88,11 @@
 #fo {
     font-size: 80px;
     font-family: fantasy;
+}
+
+
+
+.foot {
+    background-color: black;
+    color: white;
 }
